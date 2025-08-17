@@ -3,7 +3,7 @@ import re
 import os
 
 # BotFather से मिला हुआ token (Koyeb पर BOT_TOKEN env variable में set करना है)
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8033969537:AAF_TeB3pFGNjc7zTYolaNq-eZSQP0jF6T4")
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(content_types=['document'])
